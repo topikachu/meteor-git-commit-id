@@ -1,7 +1,9 @@
 Package.describe({
     name: 'topikachu:meteor-git-commit-id',
     summary: "Get the git commit id at build time",
-    version: '1.0.0'
+    version: '1.0.1',
+    git: 'https://github.com/topikachu/meteor-git-commit-id.git',
+    documentation: 'README.md'
 });
 
 Package.onUse(function (api) {
